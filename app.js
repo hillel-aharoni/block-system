@@ -9,6 +9,8 @@ const app = express();
 app.use(express.json());
 
 
+
+
 // Routes
 app.use('/api', require('./routes/authRoutes'));
 app.use('/api/posts', require('./routes/postRoutes'));
